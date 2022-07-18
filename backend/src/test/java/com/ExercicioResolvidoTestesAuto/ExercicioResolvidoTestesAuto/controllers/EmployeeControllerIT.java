@@ -1,5 +1,5 @@
 package com.ExercicioResolvidoTestesAuto.ExercicioResolvidoTestesAuto.controllers;
-/*
+
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -60,4 +60,4 @@ public class EmployeeControllerIT {
 		result.andExpect(jsonPath("$.email").value("joaquim@gmail.com"));
 		result.andExpect(jsonPath("$.departmentId").value(1L));
 	}	
-}*/
+}
